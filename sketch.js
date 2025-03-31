@@ -2,7 +2,6 @@
 const iterations = 10;
 const stepSize = 10;
 const angle = 45;
-const canvasSize = 1000;
 const axiom = "FG";
 
 // State variables
@@ -74,7 +73,7 @@ function getRandomRule() {
 
 // Sets up the canvas and initializes rules
 function setup() {
-  createCanvas(canvasSize, canvasSize);
+  createCanvas(windowWidth, windowHeight);
   background(0);
   x = width / 2;
   y = height / 2;
